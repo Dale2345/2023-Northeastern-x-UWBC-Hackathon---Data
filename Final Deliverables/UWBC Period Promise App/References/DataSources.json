@@ -1,0 +1,254 @@
+{
+  "DataSources": [
+    {
+      "Name": "Distribution",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "Distribution",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "Distribution": "{\"name\":\"Distribution\",\"title\":\"Distribution\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ID\":{\"type\":\"number\",\"format\":\"double\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ID\"},\"UWBCRegionID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWBCRegionID\"},\"Year\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Year\"},\"DistributionDate\":{\"type\":\"string\",\"format\":\"date-time\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DistributionDate\"},\"Andar_x0020_ID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Andar ID\"},\"Organization\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Organization\"},\"OrgNew\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"OrgNew\"},\"PostalCode\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"PostalCode\"},\"City\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"City\"},\"ProductType\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ProductType\"},\"Qty\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Qty\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "ProductType": "ProductType",
+        "Andar_x0020_ID": "Andar ID",
+        "PostalCode": "PostalCode",
+        "OrgNew": "OrgNew",
+        "DistributionDate": "DistributionDate",
+        "Qty": "Qty",
+        "__PowerAppsId__": "Row id",
+        "City": "City",
+        "ID": "ID",
+        "UWBCRegionID": "UWBCRegionID",
+        "Organization": "Organization",
+        "Year": "Year"
+      }
+    },
+    {
+      "Name": "CustomGallerySample",
+      "Schema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "Data": "[{\"SampleHeading\":\"Lorem ipsum 1\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"},{\"SampleHeading\":\"Lorem ipsum 2\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Suspendisse enim metus, tincidunt quis lobortis a, fringilla dignissim neque.\"},{\"SampleHeading\":\"Lorem ipsum 3\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Ut pharetra a dolor ac vehicula.\"},{\"SampleHeading\":\"Lorem ipsum 4\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Vestibulum dui felis, fringilla nec mi sed, tristique dictum nisi.\"}]",
+      "OriginalName": "CustomGallerySample",
+      "OrderedColumnNames": [
+        "SampleImage",
+        "SampleHeading",
+        "SampleText"
+      ]
+    },
+    {
+      "Name": "DropDownSample",
+      "Schema": "*[Value:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[Value:s]",
+      "Data": "[{\"Value\":\"1\"},{\"Value\":\"2\"},{\"Value\":\"3\"}]",
+      "OriginalName": "DropDownSample",
+      "OrderedColumnNames": [
+        "Value"
+      ]
+    },
+    {
+      "Name": "ComboBoxSample",
+      "Schema": "*[Value1:s, Value2:n, Value3:n]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[Value1:s, Value2:n, Value3:n]",
+      "Data": "[{\"Value1\":\"Item 1\",\"Value2\":1,\"Value3\":10},{\"Value1\":\"Item 2\",\"Value2\":2,\"Value3\":20},{\"Value1\":\"Item 3\",\"Value2\":3,\"Value3\":30},{\"Value1\":\"Item 4\",\"Value2\":4,\"Value3\":40},{\"Value1\":\"Item 5\",\"Value2\":5,\"Value3\":50},{\"Value1\":\"Item 6\",\"Value2\":6,\"Value3\":60},{\"Value1\":\"Item 7\",\"Value2\":7,\"Value3\":70},{\"Value1\":\"Item 8\",\"Value2\":8,\"Value3\":80},{\"Value1\":\"Item 9\",\"Value2\":9,\"Value3\":90},{\"Value1\":\"Item 10\",\"Value2\":10,\"Value3\":100},{\"Value1\":\"Item 11\",\"Value2\":11,\"Value3\":110},{\"Value1\":\"Item 12\",\"Value2\":12,\"Value3\":120},{\"Value1\":\"Item 13\",\"Value2\":13,\"Value3\":130},{\"Value1\":\"Item 14\",\"Value2\":14,\"Value3\":140},{\"Value1\":\"Item 15\",\"Value2\":15,\"Value3\":150}]",
+      "OriginalName": "ComboBoxSample",
+      "OrderedColumnNames": [
+        "Value1",
+        "Value2",
+        "Value3"
+      ]
+    },
+    {
+      "Name": "RadioSample",
+      "Schema": "*[Value:n]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[Value:n]",
+      "Data": "[{\"Value\":1},{\"Value\":2}]",
+      "OriginalName": "RadioSample",
+      "OrderedColumnNames": [
+        "Value"
+      ]
+    },
+    {
+      "Name": "RegionMapping",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "RegionMapping",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "RegionMapping": "{\"name\":\"RegionMapping\",\"title\":\"RegionMapping\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"City_x002f_town\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"City/town\"},\"Region\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Region\"},\"UWRegion\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWRegion\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "Region": "Region",
+        "UWRegion": "UWRegion",
+        "__PowerAppsId__": "Row id",
+        "City_x002f_town": "City/town"
+      }
+    },
+    {
+      "Name": "ProductValue",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "ProductValue",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "ProductValue": "{\"name\":\"ProductValue\",\"title\":\"ProductValue\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Year\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Year\"},\"ProductName\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ProductName\"},\"UnitValue\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UnitValue\"},\"Remarks\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Remarks\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "UnitValue": "UnitValue",
+        "Year": "Year",
+        "Remarks": "Remarks",
+        "ProductName": "ProductName",
+        "__PowerAppsId__": "Row id"
+      }
+    },
+    {
+      "Name": "ProductIntake",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "ProductIntake",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "ProductIntake": "{\"name\":\"ProductIntake\",\"title\":\"ProductIntake\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ID\"},\"UWBCRegionID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWBCRegionID\"},\"Community\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Community\"},\"Year\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Year\"},\"IntakeDate\":{\"type\":\"string\",\"format\":\"date-time\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"IntakeDate\"},\"SponsorName\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"SponsorName\"},\"SponsorNameNew\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"SponsorNameNew\"},\"DonationTypeNew\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DonationTypeNew\"},\"AndarID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AndarID\"},\"ProductType\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ProductType\"},\"Qty\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Qty\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "SponsorName": "SponsorName",
+        "SponsorNameNew": "SponsorNameNew",
+        "IntakeDate": "IntakeDate",
+        "DonationTypeNew": "DonationTypeNew",
+        "Qty": "Qty",
+        "__PowerAppsId__": "Row id",
+        "ID": "ID",
+        "Community": "Community",
+        "ProductType": "ProductType",
+        "UWBCRegionID": "UWBCRegionID",
+        "Year": "Year",
+        "AndarID": "AndarID"
+      }
+    },
+    {
+      "Name": "Organization",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "Organization",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "Organization": "{\"name\":\"Organization\",\"title\":\"Organization\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ID\"},\"AndarID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AndarID\"},\"UWBCRegionID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWBCRegionID\"},\"Organization_x0020_Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Organization Name\"},\"Postal_x0020_Code\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Postal Code\"},\"City\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"City\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "City": "City",
+        "UWBCRegionID": "UWBCRegionID",
+        "__PowerAppsId__": "Row id",
+        "AndarID": "AndarID",
+        "Postal_x0020_Code": "Postal Code",
+        "ID": "ID",
+        "Organization_x0020_Name": "Organization Name"
+      }
+    },
+    {
+      "Name": "FundAllocation",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "FundAllocation",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "FundAllocation": "{\"name\":\"FundAllocation\",\"title\":\"FundAllocation\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ID\":{\"type\":\"number\",\"format\":\"double\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ID\"},\"Year\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Year\"},\"Date\":{\"type\":\"string\",\"format\":\"date-time\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Date\"},\"Region\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Region\"},\"UWBCRegionID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWBCRegionID\"},\"PostalCode\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"PostalCode\"},\"City\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"City\"},\"Organization\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Organization\"},\"DollarAmt\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DollarAmt\"},\"AndarID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AndarID\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "City": "City",
+        "PostalCode": "PostalCode",
+        "Date": "Date",
+        "DollarAmt": "DollarAmt",
+        "ID": "ID",
+        "Organization": "Organization",
+        "Year": "Year",
+        "Region": "Region",
+        "AndarID": "AndarID",
+        "__PowerAppsId__": "Row id",
+        "UWBCRegionID": "UWBCRegionID"
+      }
+    },
+    {
+      "Name": "RegionName",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!4sbXeueSm0iaDBgyMTrl1VDMze4Bj45Dufwmi80i97rYW3nWW4dhTZR35Srb1hZ1.01XHVZQQB4LH4RTRFAANFYAJCE76KHMHJO",
+      "TableName": "RegionName",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-02-20T17:02:49.4330000Z"
+      },
+      "DataEntityMetadataJson": {
+        "RegionName": "{\"name\":\"RegionName\",\"title\":\"RegionName\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"UWBCRegionID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"UWBCRegionID\"},\"Region_x0020_Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Region Name\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "Region_x0020_Name": "Region Name",
+        "__PowerAppsId__": "Row id",
+        "UWBCRegionID": "UWBCRegionID"
+      }
+    }
+  ]
+}

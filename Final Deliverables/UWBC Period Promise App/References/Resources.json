@@ -1,0 +1,76 @@
+{
+  "Resources": [
+    {
+      "Name": "SampleImage",
+      "Schema": "i",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "/ctrllib/image/images/SampleImage.svg",
+      "Path": "/ctrllib/image/images/SampleImage.svg",
+      "Content": "Image",
+      "ResourceKind": "Uri",
+      "RootPath": "ms-appx:///ctrllib/image/images/SampleImage.svg"
+    },
+    {
+      "Name": "6917__UWBC-LOGO__NEW__ALL-REGIONS__HORIZ__COLOUR__09-28-23__1200-dpi-2",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "90c77edf-ffdf-47d4-97bf-f96fdbafdd7d.png",
+      "Path": "Assets\\Images\\90c77edf-ffdf-47d4-97bf-f96fdbafdd7d.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwaprodwus.blob.core.windows.net/e5331197-3351-46fa-82c8-4af6e097e622-1/resource/Assets0Images090c77edf-ffdf-47d4-97bf-f96fdbafdd7d.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-03-19T19%3A51%3A24Z&ske=2024-03-20T20%3A06%3A24Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-20T20%3A06%3A24Z&sr=b&sp=r&sig=oQsqDpBU1g5r5LrB3HdAzY1Fwhf2fdWQjMwg7TwF3Fg%3D"
+    },
+    {
+      "Name": "6917__UWBC-LOGO__NEW__ALL-REGIONS__HORIZ__COLOUR__09-28-23__1200-dpi-2 (1)",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "fdf509db-c1a7-4f38-9a31-8969a30934c9.png",
+      "Path": "Assets\\Images\\fdf509db-c1a7-4f38-9a31-8969a30934c9.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwaprodwus.blob.core.windows.net/e5331197-3351-46fa-82c8-4af6e097e622-1/resource/Assets0Images0fdf509db-c1a7-4f38-9a31-8969a30934c9.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-03-19T19%3A51%3A24Z&ske=2024-03-20T20%3A06%3A24Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-20T20%3A06%3A24Z&sr=b&sp=r&sig=7RiUQItewRYmAyxPlfwITy3%2BVIQ0AGyoaem3Eb1CXEs%3D"
+    },
+    {
+      "Name": "image (1)",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "2bb8bde0-6711-4049-a1d7-b1b134451c8f.png",
+      "Path": "Assets\\Images\\2bb8bde0-6711-4049-a1d7-b1b134451c8f.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwaprodwus.blob.core.windows.net/e5331197-3351-46fa-82c8-4af6e097e622-1/resource/Assets0Images02bb8bde0-6711-4049-a1d7-b1b134451c8f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-03-19T19%3A51%3A24Z&ske=2024-03-20T20%3A06%3A24Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-20T20%3A06%3A24Z&sr=b&sp=r&sig=Hsyt38oCYaO0ohynDVfnpRF0K4mEMvW2THsA7RWmFP4%3D"
+    },
+    {
+      "Name": "UWBC Logo",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "55c138e2-8bf0-4d4b-a01e-94c1a8da2f7a.png",
+      "Path": "Assets\\Images\\55c138e2-8bf0-4d4b-a01e-94c1a8da2f7a.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwaprodwus.blob.core.windows.net/e5331197-3351-46fa-82c8-4af6e097e622-1/resource/Assets0Images055c138e2-8bf0-4d4b-a01e-94c1a8da2f7a.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-03-19T19%3A51%3A24Z&ske=2024-03-20T20%3A06%3A24Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-20T20%3A06%3A24Z&sr=b&sp=r&sig=Gh%2FI1eHLbn3RqVD%2Bb%2F3yAGBV0dMgKOLDTJ1YiSaP720%3D"
+    },
+    {
+      "Name": "Logo",
+      "Schema": "i",
+      "IsSampleData": false,
+      "IsWritable": false,
+      "Type": "ResourceInfo",
+      "FileName": "31205678-303c-480a-88c2-4943e4a5cfd8.png",
+      "Path": "Assets\\Images\\31205678-303c-480a-88c2-4943e4a5cfd8.png",
+      "Content": "Image",
+      "ResourceKind": "LocalFile",
+      "RootPath": "https://docserverpwaprodwus.blob.core.windows.net/e5331197-3351-46fa-82c8-4af6e097e622-1/resource/Assets0Images031205678-303c-480a-88c2-4943e4a5cfd8.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-03-19T19%3A51%3A24Z&ske=2024-03-20T20%3A06%3A24Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-20T20%3A06%3A24Z&sr=b&sp=r&sig=9hTD6k%2Fbezvu1Mpbz5qPM2rXSNlNKSQElxUQT%2BVm8P0%3D"
+    }
+  ]
+}
